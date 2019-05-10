@@ -129,11 +129,6 @@
     opacity: 1;
 }
 
-.team-cards__item img {
-    position: absolute;
-    top: 19px;
-    left: 59px;
-}
 .team-cards__item p {
     @include reset-list;
     text-align: center;
