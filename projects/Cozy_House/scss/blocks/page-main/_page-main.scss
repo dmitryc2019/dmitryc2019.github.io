@@ -71,6 +71,8 @@
 
 .about-us {
     padding: 0 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-bottom: 30px;
 }
 
@@ -97,6 +99,7 @@ p.about-us__title,
     background-color: #f6f6f6;
     border-top: 1px solid #f6f6f6;
     border-bottom: 1px solid #f6f6f6; 
+    padding-bottom: 40px;
 }
 .animals__wrapper {
     padding: 0 10px;
@@ -155,14 +158,13 @@ p.about-us__title,
 }
 .animals__link {
     margin: 0 auto;
-	margin-bottom: 40px;
 }
 .help-shelter {
     margin-bottom: 60px;
+    padding-top: 20px;
 }
 .help-shelter__title {
     text-align: center;
-    margin-top: 60px;
     margin-bottom: 60px;
 }
 .help-shelter__item {
