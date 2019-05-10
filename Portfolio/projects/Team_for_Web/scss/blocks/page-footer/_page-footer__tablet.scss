@@ -1,0 +1,18 @@
+@media (min-width: $tablet-width) {
+    .page-footer {
+        height: 80px;
+    }
+    .page-footer__wrapper {
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+@media (min-width: 940px) {
+    .page-footer__wrapper {
+        width: 900px;
+    }
+}

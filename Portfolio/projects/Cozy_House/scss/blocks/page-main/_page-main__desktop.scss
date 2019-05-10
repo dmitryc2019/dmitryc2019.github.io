@@ -1,0 +1,93 @@
+@media (min-width: $desktop-width) {
+    .page-header__wrapper {
+        width: 1170px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .main-section__wrapper {
+        width: 1170px;
+        margin: 0 auto;
+        text-align: left;
+        background-image: url("../pictures/header-pets.png");
+        background-repeat: no-repeat;
+        background-position: 90%;
+        height: 450px;
+        padding-top: 90px;
+        box-sizing: border-box;
+        padding-bottom: 0;
+    }
+
+    .main-section h2 {
+        text-align: left;
+        display: block;
+        width: 470px;
+    }
+
+    .main-section p {
+        text-align: left;
+        display: block;
+        width: 470px;
+    }
+
+    .main-section__link {
+        margin: 0;
+    }
+
+    .about-us__wrapper {
+        width: 1170px;
+        padding-left: 580px;
+        background-repeat: no-repeat;
+        background-position: 10% center;
+    }
+
+    .help-shelter__wrapper {
+        width: 1170px;
+        margin: 0 auto;
+    }
+
+    .donation {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .donation__wrapper {
+        width: 930px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .donation__item:nth-child(1) {
+        display: block;
+        width: 505px;
+        height: 261px;
+        background-image: url("../pictures/dog.png");
+        background-repeat: no-repeat;
+    }
+
+    .donation__item:nth-child(2) {
+        width: 360px;
+    }
+
+    .page-footer__wrapper {
+        width: 1170px;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .page-footer__feedback,
+    .page-footer__location {
+        padding-top: 35px;
+    }
+
+    .page-footer__image {
+        width: 300px;
+        height: 313px;
+        background: url("../pictures/footer.png") no-repeat;
+    }
+
+    .animals__wrapper {
+        width: 1170px;
+        margin: 0 auto;
+    }
+}

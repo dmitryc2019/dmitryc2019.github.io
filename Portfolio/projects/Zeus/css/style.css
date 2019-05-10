@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "CinzelDecorative-Black";
+    src: url("../fonts/CinzelDecorative-Black.woff") format("woff"), url("../fonts/CinzelDecorative-Black.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CinzelDecorative-Regular";
+    src: url("../fonts/CinzelDecorative-Regular.woff") format("woff"), url("../fonts/CinzelDecorative-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Amiri-Regular";
+    src: url("../fonts/Amiri-Regular.woff") format("woff"), url("../fonts/Amiri-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body,
+h1,
+h2,
+p,
+span {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.page-header {
+    background-image: url("../pictures/zeus-header.jpg");
+    background-color: #191b0e;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    border-top: 1px solid black;
+}
+
+.page-header__logo {
+    width: 153px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.page-header__text {
+    margin-top: 45px;
+    padding: 0 20px;
+}
+
+.page-header__text h1 {
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-family: "CinzelDecorative-Black", "Arial", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.page-header__text p {
+    font-size: 26px;
+    line-height: 26px;
+    text-transform: none;
+    font-family: "CinzelDecorative-Regular", "Arial", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.page-header__text p:nth-child(3) {
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: none;
+    font-family: "Amiri-Regular", "Arial", sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    color: #cdb378;
+}
+
+
+.main-section__items {
+    min-height: 200px;
+    background-color: #191b0e;
+    border-top: 1px solid #191b0e;
+    box-sizing: border-box;
+    padding: 0 20px;
+    padding-bottom: 10px;
+}
+
+.main-section__items h2 {
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: none;
+    font-family: "CinzelDecorative-Regular", "Arial", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.main-section__items p {
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: none;
+    font-family: "Amiri-Regular", "Arial", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: #cdb378;
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .main-section__items {
+        height: 300px;
+        padding-bottom: 0;
+
+    }
+
+    .main-section__items h2 {
+        margin-top: 100px;
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .main-section__items p {
+        font-size: 25px;
+        line-height: 25px;
+    }
+}
+
+.main-section__items--mod {
+    background-color: #232615;
+}
+
+.main-section__items--differ {
+    background-image: url("../pictures/zeus-main.jpg");
+    background-color: #232615;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 35% 40%;
+    width: auto;
+    height: 610px;
+    position: relative;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1c0f;
+    padding: 0 20px;
+    padding-bottom: 20px;
+    min-height: 200px;
+}
+
+.feature span {
+    font-size: 35px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-family: "CinzelDecorative-Black", "Arial", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #cdb378;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+    .feature {
+        min-height: 225px;
+    }
+
+    .feature span {
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
+
+.feature p {
+    font-size: 25px;
+    line-height: 33px;
+    text-transform: none;
+    font-family: "Amiri-Regular", "Arial", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: #b4ba98;
+}
+
+.main-footer {
+    background-image: url("../pictures/zeus-footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #1a1c0f;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (min-width: 768px) {
+    .main-footer {
+        background-position: 35% 40%;
+        background-size: cover;
+    }
+}

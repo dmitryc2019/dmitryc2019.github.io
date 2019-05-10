@@ -1,0 +1,25 @@
+.page-footer {
+    background-color: #4f4f4f;
+    height: 100px;
+}
+.page-footer__wrapper {
+    display: flex;
+    padding-top: 17px;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+.page-footer__adress, .page-footer__copyright {
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: none;
+    font-family: "Georgia", "Arial", sans-serif;
+    font-weight: 600;
+    @include reset-list;
+    color: #6e6e6e;
+}
+.page-footer__adress span {
+    color: #949494;
+}
+@import "page-footer__tablet.scss";
+@import "page-footer__desktop.scss";

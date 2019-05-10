@@ -1,0 +1,25 @@
+.page-header {
+	background-color: #3c322d;
+}
+.page-header__wrapper {
+	padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 180px;
+}
+.page-header__logo {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.page-header__logo a {
+	font-family: "Geogia", "Arial", sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    color: #e7ccb3;
+    text-decoration: none;
+}
+
+@import "page-header__tablet.scss";
+@import "page-header__desktop.scss";

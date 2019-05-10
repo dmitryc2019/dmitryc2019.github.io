@@ -1,0 +1,37 @@
+@media (min-width: $tablet-width) {
+    .site-list {
+        display: flex;
+        justify-content: space-between;
+        width: 470px;
+    }
+
+    .main-section__wrapper {
+        width: 490px;
+        margin: 0 auto;
+    }
+
+    .about-us__wrapper {
+        width: 660px;
+        margin: 0 auto;
+        padding-left: 400px;
+        background: url("../pictures/about-pets.png");
+        background-repeat: no-repeat;
+        background-position: left center;
+    }
+
+    p.about-us__title,
+    .help-shelter__title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .page-footer__wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .animals__main {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

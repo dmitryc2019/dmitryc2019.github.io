@@ -1,0 +1,16 @@
+@media (min-width: $desktop-width) {
+    .works__items {
+        margin: 0 auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 900px;
+        height: 580px;
+        justify-content: space-between;
+    }
+    .team-cards {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 900px;    
+    }
+}
