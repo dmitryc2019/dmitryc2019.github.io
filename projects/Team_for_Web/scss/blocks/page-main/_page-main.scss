@@ -164,6 +164,7 @@
 }
 .contact__wrapper {
     display: flex;
+    width: auto;
     flex-direction: column;
 }
 
@@ -171,6 +172,7 @@
     margin: 0 auto;
     margin-bottom: 60px;
     height: 320px;
+    width: 320px;
 }
 
 .map p, .feedback__text {
